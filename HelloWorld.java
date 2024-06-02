@@ -16,8 +16,15 @@ public class HelloWorld {
         System.out.print("is ");
         System.out.print("up?");
 
-        String name = "Sean Kim";
+        String name = "Sean Kim"; // This is the String literal method of declaration. MUST be surrounded by double quotes "". Strings are objects in Java.
+        String nickname = new String("Skim"); // This is the object method of declaration for strings.
+
+        // Escape sequence \" allows you to add double quotes to a string.
+
+        char firstInitial = 'S'; // char can hold any single character, MUST be surrounded by single quotes ''.
         int yearCreated = 1993;
+        double gpa = 3.62;
+        boolean isCool = true;
 
         /**
          * Commenting is similar to other languages, but the syntax in this block is different
