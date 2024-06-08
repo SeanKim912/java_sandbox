@@ -19,5 +19,9 @@ public class Operators {
         String str2 = "Jim";
 
         System.out.println(str1.equals(str2)); // false
+
+        // final keyword acts like const in C++, making a variable immutable. Will throw error if you try to change it.
+        final double pi = 3.14;
+        System.out.println(pi);
     }
 }
