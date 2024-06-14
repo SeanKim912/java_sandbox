@@ -13,7 +13,7 @@ public class Store {
         }
 
         // Classes can have multiple constructors, differentiated by what parameters they have.
-        public Car(int area, int people) {
+        public Store(int area, int people) {
             size = area;
             capacity = people;
         }

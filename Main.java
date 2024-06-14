@@ -8,10 +8,10 @@ public class Main {
 
             Can set it equal to null to initialize a reference-type value with no reference.
          */
-        Store walmart = new Store();
+        Store walmart = new Store("Walmart", "Chicago");
         System.out.println(walmart);
 
-        walmart = null;
-        System.out.println(walmart);
+        // walmart = null;
+        // System.out.println(walmart);
     }
 }
